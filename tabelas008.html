@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+         body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px black solid;
+            padding: 10px;
+        }
+        .cnome{
+            background-color: brown;
+        }
+        .csexo{
+            background-color: green;
+        }
+        .cidade{
+            background-color: blueviolet;
+        }
+        .cprofissao{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofissao"> <!-- ALTERANDO COR DE UMA COLUNA DE UMA TABELA-->
+    </colgroup>
+        <thead>
+            <tr>
+                <th>nome</th>
+                <th>sexo</th>
+                <th>idade</th>
+                <th>profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Ana Maria</th>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <th>claudio</th>
+                <td>M</td>
+                <td>28</td>
+                <td>eletricista</td>
+            </tr>
+            <tr>
+                <th>Gustavo</th>
+                <td>M</td>
+                <td>42</td>
+                <td>Atleta</td>
+            </tr>
+            <tr>
+                <th>hélio</th>
+                <td>M</td>
+                <td>32</td>
+                <td>vendedor</td>
+            </tr>
+            <tr>
+                <th>Maria</th>
+                <td>F</td>
+                <td>39</td>
+                <td>Médica</td>
+            </tr>
+            <tr>
+                <th>otávio</th>
+                <td>M</td>
+                <td>22</td>
+                <td>programador</td>
+            </tr>
+
+        </tbody>
+        
+    </table>
+    
+</body>
+</html>
